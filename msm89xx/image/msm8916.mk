@@ -50,4 +50,15 @@ define Device/generic-uf02
 endef
 TARGET_DEVICES += generic-uf02
 
+define Device/gexing-sp970
+  $(Device/msm8916)
+  DEVICE_VENDOR := Gexing
+  DEVICE_MODEL := SP970
+  FILESYSTEMS := squashfs
+  DEVICE_PACKAGES := wpad-basic-wolfssl rmtfs uci-usb-gadget \
+                     block-mount f2fs-tools \
+                     msm-firmware-dumper
+endef
+TARGET_DEVICES += gexing-sp970
+
 endif

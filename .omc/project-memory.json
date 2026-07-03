@@ -1,0 +1,195 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1783078011158,
+  "projectRoot": "/home/mybays/develop/msm8916/msm8916-openwrt",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "bin"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "TBR": {
+      "path": "TBR",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1783078011155,
+      "keyFiles": [
+        "add-qcom-memshare.patch",
+        "diffconfig_m9s",
+        "diffconfig_mf68e",
+        "enable_wcn36xx_mac80211.patch",
+        "msm8916.mk.devices"
+      ]
+    },
+    "bin": {
+      "path": "bin",
+      "purpose": "Executable scripts",
+      "fileCount": 0,
+      "lastAccessed": 1783078011157,
+      "keyFiles": []
+    },
+    "devenv": {
+      "path": "devenv",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1783078011157,
+      "keyFiles": [
+        "Dockerfile",
+        "dependencies.sh",
+        "docker-compose.yml"
+      ]
+    },
+    "msm89xx": {
+      "path": "msm89xx",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1783078011157,
+      "keyFiles": [
+        "Makefile",
+        "config-6.12",
+        "modules.mk"
+      ]
+    },
+    "packages": {
+      "path": "packages",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1783078011157,
+      "keyFiles": []
+    },
+    "temp": {
+      "path": "temp",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1783078011157,
+      "keyFiles": [
+        "msm8916-gexing-sp970.dts"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "msm89xx/image/msm8916.mk",
+      "accessCount": 2,
+      "lastAccessed": 1783078685635,
+      "type": "file"
+    },
+    {
+      "path": "temp/msm8916-gexing-sp970.dts",
+      "accessCount": 1,
+      "lastAccessed": 1783078165697,
+      "type": "file"
+    },
+    {
+      "path": "diffconfig_uz801",
+      "accessCount": 1,
+      "lastAccessed": 1783078166813,
+      "type": "file"
+    },
+    {
+      "path": "diffconfig_uf02",
+      "accessCount": 1,
+      "lastAccessed": 1783078166871,
+      "type": "file"
+    },
+    {
+      "path": "msm89xx/patches/801-arm64-dts-qcom-add-devices-makefile.patch",
+      "accessCount": 1,
+      "lastAccessed": 1783078173218,
+      "type": "file"
+    },
+    {
+      "path": "msm89xx/patches/803-arm64-dts-qcom-swap-leds-uz801.patch",
+      "accessCount": 1,
+      "lastAccessed": 1783078173286,
+      "type": "file"
+    },
+    {
+      "path": "msm89xx/patches/804-arm64-dts-qcom-add-msm8916-generic-uf2.patch",
+      "accessCount": 1,
+      "lastAccessed": 1783078173842,
+      "type": "file"
+    },
+    {
+      "path": "apply_patches.sh",
+      "accessCount": 1,
+      "lastAccessed": 1783078173869,
+      "type": "file"
+    },
+    {
+      "path": "msm89xx/image/Makefile",
+      "accessCount": 1,
+      "lastAccessed": 1783078174582,
+      "type": "file"
+    },
+    {
+      "path": "msm89xx/Makefile",
+      "accessCount": 1,
+      "lastAccessed": 1783078174635,
+      "type": "file"
+    },
+    {
+      "path": "msm89xx/msm8916/target.mk",
+      "accessCount": 1,
+      "lastAccessed": 1783078174912,
+      "type": "file"
+    },
+    {
+      "path": "readme.md",
+      "accessCount": 1,
+      "lastAccessed": 1783078225094,
+      "type": "file"
+    },
+    {
+      "path": "msm89xx/base-files/etc/uci-defaults/99-default-config",
+      "accessCount": 1,
+      "lastAccessed": 1783078225198,
+      "type": "file"
+    },
+    {
+      "path": "devenv/Dockerfile",
+      "accessCount": 1,
+      "lastAccessed": 1783078363639,
+      "type": "file"
+    },
+    {
+      "path": "diffconfig_sp970",
+      "accessCount": 1,
+      "lastAccessed": 1783078666145,
+      "type": "file"
+    },
+    {
+      "path": "msm89xx/patches/805-arm64-dts-qcom-add-msm8916-generic-sp970.patch",
+      "accessCount": 1,
+      "lastAccessed": 1783078678925,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
