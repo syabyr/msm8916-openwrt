@@ -13,6 +13,7 @@ on:
           - uz801
           - uf02
           - sp970
+          - jz02
 
 env:
   UPLOAD_FIRMWARE: true
@@ -43,7 +44,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        device: ${{ fromJSON((inputs.device == 'all' || inputs.device == '') && '["uz801","uf02","sp970"]' || format('["{0}"]', inputs.device)) }}
+        device: ${{ fromJSON((inputs.device == 'all' || inputs.device == '') && '["uz801","uf02","sp970","jz02"]' || format('["{0}"]', inputs.device)) }}
 
     steps:
     - name: Checkout

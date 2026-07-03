@@ -96,8 +96,8 @@
   "hotPaths": [
     {
       "path": "msm89xx/image/msm8916.mk",
-      "accessCount": 2,
-      "lastAccessed": 1783078685635,
+      "accessCount": 3,
+      "lastAccessed": 1783079955472,
       "type": "file"
     },
     {
@@ -188,6 +188,24 @@
       "path": "msm89xx/patches/805-arm64-dts-qcom-add-msm8916-generic-sp970.patch",
       "accessCount": 1,
       "lastAccessed": 1783078678925,
+      "type": "file"
+    },
+    {
+      "path": "temp/msm8916-thwc-jz02v10.dts",
+      "accessCount": 1,
+      "lastAccessed": 1783079840498,
+      "type": "file"
+    },
+    {
+      "path": "diffconfig_jz02",
+      "accessCount": 1,
+      "lastAccessed": 1783079932619,
+      "type": "file"
+    },
+    {
+      "path": "msm89xx/patches/806-arm64-dts-qcom-add-msm8916-generic-jz02.patch",
+      "accessCount": 1,
+      "lastAccessed": 1783079945918,
       "type": "file"
     }
   ],

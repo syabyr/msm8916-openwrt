@@ -61,4 +61,15 @@ define Device/gexing-sp970
 endef
 TARGET_DEVICES += gexing-sp970
 
+define Device/thwc-jz02v10
+  $(Device/msm8916)
+  DEVICE_VENDOR := Thwc
+  DEVICE_MODEL := JZ02 V10
+  FILESYSTEMS := squashfs
+  DEVICE_PACKAGES := wpad-basic-wolfssl rmtfs uci-usb-gadget \
+                     block-mount f2fs-tools \
+                     msm-firmware-dumper
+endef
+TARGET_DEVICES += thwc-jz02v10
+
 endif
